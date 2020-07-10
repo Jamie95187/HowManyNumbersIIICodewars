@@ -17,6 +17,10 @@ describe 'solver' do
       expect(solver.find_all(9, 2)).to eq [4, 18, 45]
     end
 
+    it('should return the correct answer when the amount of digits is 3') do
+      expect(solver.find_all(3, 3)).to eq [1, 111, 111]
+    end
+
   end
 
 end
