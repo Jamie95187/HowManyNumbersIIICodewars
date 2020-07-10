@@ -18,9 +18,9 @@ Make a function that receives two arguments:
 
 The function should output an array with three values: [1,2,3]
 
-1 - the total number of possible numbers
-2 - the minimum number
-3 - the maximum number
+1 - the total number of possible numbers </br>
+2 - the minimum number </br>
+3 - the maximum number </br>
 
 The example given above should be:
 
@@ -37,3 +37,9 @@ If there are no possible numbers, the function should output the empty array.
 The number of solutions climbs up when the number of digits increases.
 
 `find_all(35, 6) == [123, 116999, 566666]`
+
+Features of the random tests:
+
+- Number of tests: `112`
+- Sum of digits value between `20` and `65`
+- Amount of digits between `2` and `17`
