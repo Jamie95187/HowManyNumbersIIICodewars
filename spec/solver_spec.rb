@@ -13,6 +13,7 @@ describe 'solver' do
       expect(solver.find_all(5, 2)).to eq [2, 14, 23]
       expect(solver.find_all(6, 2)).to eq [3, 15, 33]
       expect(solver.find_all(7, 2)).to eq [3, 16, 34]
+      expect(solver.find_all(8, 2)).to eq [4, 17, 44]
     end
 
   end
