@@ -20,6 +20,7 @@ describe 'solver' do
     it('should return the correct answer when the amount of digits is 3') do
       expect(solver.find_all(3, 3)).to eq [1, 111, 111]
       expect(solver.find_all(4, 3)).to eq [1, 112, 112]
+      expect(solver.find_all(5, 3)).to eq [1, 113, 113]
     end
 
   end
