@@ -33,6 +33,10 @@ describe 'solver' do
       expect(solver.find_all(19, 3)).to eq [9, 199, 667]
     end
 
+    it('should return the correct answer when the amount of digits is 4') do
+      expect(solver.find_all(4, 4)).to eq [1, 1111, 1111]
+    end
+
   end
 
 end
