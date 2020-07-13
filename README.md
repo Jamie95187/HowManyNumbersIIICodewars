@@ -32,7 +32,7 @@ If we have only one possible number as a solution, it should output a result lik
 
 If there are no possible numbers, the function should output the empty array.
 
-`find_all(84, 4) == []`
+`find_all(64, 4) == []`
 
 The number of solutions climbs up when the number of digits increases.
 

@@ -6,6 +6,10 @@ describe 'solver' do
 
   describe 'find_all' do
 
+    it('should return empty array if invalid') do
+      expect(solver.find_all(64, 3)).to eq []
+    end
+
     it('should return the correct answer when the amount of digits is 2') do
       expect(solver.find_all(2, 2)).to eq [1, 11, 11]
       expect(solver.find_all(3, 2)).to eq [1, 12, 12]
@@ -30,6 +34,7 @@ describe 'solver' do
       expect(solver.find_all(12, 3)).to eq [10, 129, 444]
       expect(solver.find_all(13, 3)).to eq [12, 139, 445]
       expect(solver.find_all(14, 3)).to eq [12, 149, 455]
+      expect(solver.find_all(15, 3)).to eq [13, 159, 555]
       expect(solver.find_all(19, 3)).to eq [9, 199, 667]
       expect(solver.find_all(25, 3)).to eq [2, 799, 889]
       expect(solver.find_all(26, 3)).to eq [1, 899, 899]
