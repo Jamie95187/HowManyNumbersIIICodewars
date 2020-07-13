@@ -44,6 +44,7 @@ describe 'solver' do
     it('should return the correct answer when the amount of digits is 4') do
       expect(solver.find_all(4, 4)).to eq [1, 1111, 1111]
       expect(solver.find_all(5, 4)).to eq [1, 1112, 1112]
+      expect(solver.find_all(6, 4)).to eq [2, 1113, 1122]
     end
 
   end
