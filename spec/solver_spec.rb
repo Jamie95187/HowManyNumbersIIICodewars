@@ -31,6 +31,7 @@ describe 'solver' do
       expect(solver.find_all(13, 3)).to eq [12, 139, 445]
       expect(solver.find_all(14, 3)).to eq [12, 149, 455]
       expect(solver.find_all(19, 3)).to eq [9, 199, 667]
+      expect(solver.find_all(27, 3)).to eq [1, 999, 999]
     end
 
     it('should return the correct answer when the amount of digits is 4') do
