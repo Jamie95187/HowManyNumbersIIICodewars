@@ -35,6 +35,7 @@ describe 'solver' do
       expect(solver.find_all(13, 3)).to eq [12, 139, 445]
       expect(solver.find_all(14, 3)).to eq [12, 149, 455]
       expect(solver.find_all(15, 3)).to eq [13, 159, 555]
+      expect(solver.find_all(16, 3)).to eq [12, 169, 556]
       expect(solver.find_all(19, 3)).to eq [9, 199, 667]
       expect(solver.find_all(25, 3)).to eq [2, 799, 889]
       expect(solver.find_all(26, 3)).to eq [1, 899, 899]
