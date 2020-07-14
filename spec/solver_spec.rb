@@ -47,7 +47,7 @@ describe 'solver' do
       expect(solver.find_all(5, 4)).to eq [1, 1112, 1112]
       expect(solver.find_all(6, 4)).to eq [2, 1113, 1122]
       expect(solver.find_all(7, 4)).to eq [3, 1114, 1222]
-      expect(solver.find_all(10, 4)).to eq [7, 1126, 2233]
+      expect(solver.find_all(10, 4)).to eq [8, 1117, 2233]
     end
 
   end
