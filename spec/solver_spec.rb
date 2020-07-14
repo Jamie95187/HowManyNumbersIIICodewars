@@ -31,12 +31,12 @@ describe 'solver' do
       expect(solver.find_all(9, 3)).to eq [7, 117, 333]
       expect(solver.find_all(10, 3)).to eq [8, 118, 334]
       expect(solver.find_all(11, 3)).to eq [10, 119, 344]
-      expect(solver.find_all(12, 3)).to eq [10, 129, 444]
+      expect(solver.find_all(12, 3)).to eq [11, 129, 444]
       expect(solver.find_all(13, 3)).to eq [12, 139, 445]
       expect(solver.find_all(14, 3)).to eq [12, 149, 455]
       expect(solver.find_all(15, 3)).to eq [13, 159, 555]
       expect(solver.find_all(16, 3)).to eq [12, 169, 556]
-      expect(solver.find_all(19, 3)).to eq [9, 199, 667]
+      expect(solver.find_all(19, 3)).to eq [10, 199, 667]
       expect(solver.find_all(25, 3)).to eq [2, 799, 889]
       expect(solver.find_all(26, 3)).to eq [1, 899, 899]
       expect(solver.find_all(27, 3)).to eq [1, 999, 999]
@@ -47,7 +47,7 @@ describe 'solver' do
       expect(solver.find_all(5, 4)).to eq [1, 1112, 1112]
       expect(solver.find_all(6, 4)).to eq [2, 1113, 1122]
       expect(solver.find_all(7, 4)).to eq [3, 1114, 1222]
-      expect(solver.find_all(10, 4)).to eq [8, 1117, 2233]
+      expect(solver.find_all(10, 4)).to eq [9, 1117, 2233]
     end
 
   end
