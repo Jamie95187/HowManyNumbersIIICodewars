@@ -48,6 +48,7 @@ describe 'solver' do
       expect(solver.find_all(6, 4)).to eq [2, 1113, 1122]
       expect(solver.find_all(7, 4)).to eq [3, 1114, 1222]
       expect(solver.find_all(10, 4)).to eq [9, 1117, 2233]
+      expect(solver.find_all(29, 4)).to eq [11, 2999, 7778]
     end
 
     it('should return the correct answer when the amount of digits is 6') do
