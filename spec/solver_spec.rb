@@ -56,6 +56,10 @@ describe 'solver' do
       expect(solver.find_all(35, 6)).to eq [123, 116999, 566666]
     end
 
+    it('should return the correct answer when the amount of is digits is > 10') do
+      expect(solver.find_all(20, 17)).to eq [3, 11111111111111114, 11111111111111222]
+    end
+
   end
 
 end
