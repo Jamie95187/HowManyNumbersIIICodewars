@@ -8,6 +8,7 @@ describe 'solver' do
 
     it('should return empty array if invalid') do
       expect(solver.find_all(64, 3)).to eq []
+      expect(solver.find_all(20, 2)).to eq []
     end
 
     it('should return the correct answer when the amount of digits is 2') do
